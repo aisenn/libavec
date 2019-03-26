@@ -21,6 +21,7 @@ SRC = 	ft_vdot.c \
         ft_vnorm.c \
         ft_vopmult.c \
         ft_vcross.c \
+		ft_vdist.c \
 
 all: obj $(NAME)
 
