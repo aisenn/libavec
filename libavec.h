@@ -23,7 +23,7 @@ typedef double	t_vector __attribute__((ext_vector_type(4)));
 t_vector	ft_vopmult(double scalar, t_vector v);
 t_vector	ft_vmult(t_vector v, double scalar);
 t_vector	ft_vcross(t_vector a, t_vector b);
-double      ft_vangle(t_vector a, t_vector b);
+double		ft_vangle(t_vector a, t_vector b);
 double		ft_vdist(t_vector a, t_vector b);
 double		ft_vdot(t_vector a, t_vector b);
 double		ft_vlength(t_vector vec);
