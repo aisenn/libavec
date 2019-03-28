@@ -22,9 +22,11 @@ SRC = 	ft_vdot.c \
         ft_vopmult.c \
         ft_vcross.c \
 		ft_vdist.c \
+		ft_vangle.c \
 
 all: obj $(NAME)
-
+	@ :
+	
 obj:
 	@ mkdir -p $(OBJDIR)
 
